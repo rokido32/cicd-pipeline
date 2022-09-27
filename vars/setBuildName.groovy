@@ -1,3 +1,3 @@
 def call() {
-    println("set build name")
+    println $BRANCH_NAME
 }
